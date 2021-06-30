@@ -1,0 +1,17 @@
+Dear Security Team,
+I have found html injection in your endpoint xyz.com/?p= .Further Details Given below.
+
+Vulnerability Detail:
+When an application does not properly sanitize user supplied inputs, an attacker can supply valid HTML code usually  by a parameter value and inject his own content into the page. 
+
+Vulnerable Url:
+1) ...
+2) ...
+
+Impact:
+By this attacker can use forms of social engineering also exploiting code-based vulnerability and a user's trust.
+
+Fix/Mitigation:
+Properly sanitize the user supplied inputs and prohibit the use of special character brackets and commas etc. if possible.
+
+
