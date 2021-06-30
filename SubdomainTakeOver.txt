@@ -1,0 +1,19 @@
+Hi team,I've been able to takeover subdomain at sub.xyz.com, the CNAME entry in the subdomain is pointing to an external page service (attacker.com).
+
+Vulnerability Detail:
+A subdomain takeover occurs when an attacker gains control over a subdomain of a target domain. Typically, this happens when the subdomain has a canonical name (CNAME) in the Domain Name System (DNS), but no host is providing content for it.
+
+Vulnerable Url:
+1)...
+2)...
+
+Security Impact:
+An attacker can utilize this domain sub.xyz.com for targeting the organization by fake login forms, or steal sensitive information of teams (credentials, credit card information, etc)
+
+FIX & MITIGATION:
+You should immediately remove the DNS-entry for this domain or point it elsewhere if you don't use that service
+Contact vendor asap for patch or launch a Fix
+
+Please let me know if more info needed or any help,
+Best Regards,
+Your NAME
